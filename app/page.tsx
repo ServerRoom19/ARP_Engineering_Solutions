@@ -659,7 +659,8 @@ export default function ARPWebsite() {
                   <Phone className="w-6 h-6 text-blue-400" />
                   <div>
                     <p className="font-semibold">Phone</p>
-                    <p className="text-gray-300">+91 9310929371</p>
+                    <p className="text-gray-300">+91 93109 29371</p>
+                    <p className="text-gray-300">+91 98379 45444</p>
                   </div>
                 </div>
               </div>
