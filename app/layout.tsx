@@ -3,6 +3,9 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'ARP Engineering Solutions',
+  icons: {
+    icon: '/Logobg.png',
+  },
   description: 'Created with v0',
   generator: 'v0.dev',
 }
