@@ -812,6 +812,16 @@ export default function ARPWebsite() {
             </div>
             <span className="text-lg font-semibold">ARP Engineering Solutions</span>
           </div>
+          <div className="mx-auto mb-6 max-w-2xl border-t border-gray-800 pt-6 text-sm text-gray-300">
+            <p className="mb-2">
+              <span className="font-semibold text-white">Point of Contact:</span> Preeti Saxena
+            </p>
+            <address className="not-italic leading-relaxed">
+              <span className="font-semibold text-white">Company Location:</span>{" "}
+              Shop No. FF 13, 1st Floor, Lucky Plaze, Plot No. 12, Sector 12, Vasundhara,
+              Ghaziabad, UP 201012
+            </address>
+          </div>
           <p className="text-gray-400">© {new Date().getFullYear()} ARP Engineering Solutions. All rights reserved.</p>
         </div>
       </footer>
