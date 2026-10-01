@@ -193,11 +193,6 @@ export default function ARPWebsite() {
       image: "/Signages.png",
     },
     {
-      title: "Single Window Engineering Solutions",
-      caption: "Your trusted partner for comprehensive engineering solutions with exceptional after-sales support.",
-      image: "/serviceSingleWindow.png",
-    },
-    {
       title: "UPS & Power Quality Equipment",
       caption:
         "Ensuring uninterrupted power supply with advanced UPS systems and power quality solutions for critical applications.",
@@ -367,7 +362,7 @@ export default function ARPWebsite() {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
-            {["HOME", "PRODUCTS", "SERVICES", "CONTACT"].map((item) => (
+            {["HOME", "PRODUCTS", "CONTACT"].map((item) => (
               <Button
                 key={item}
                 variant="ghost"
@@ -395,7 +390,7 @@ export default function ARPWebsite() {
           <div className="lg:hidden bg-white border-t">
             <nav className="container mx-auto px-4 py-4">
               <div className="flex flex-col space-y-2">
-                {["HOME", "PRODUCTS", "SERVICES", "CONTACT"].map((item) => (
+                {["HOME", "PRODUCTS", "CONTACT"].map((item) => (
                   <Button
                     key={item}
                     variant="ghost"
@@ -510,71 +505,6 @@ export default function ARPWebsite() {
                 </CardContent>
               </Card>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Services Section */}
-      <section id="services" className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Single Window Engineering Solutions - Your one-stop destination for comprehensive engineering support.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Single Window Engineering Solutions</h3>
-              <div className="space-y-6">
-                <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-white text-sm font-bold">1</span>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">Complimentary EV Charger Engineering Services</h4>
-                    <p className="text-gray-600">
-                      Services included with all EV charging solutions, ensuring optimal
-                      performance and compliance.
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-white text-sm font-bold">2</span>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">Exceptional After-Sales Support</h4>
-                    <p className="text-gray-600">
-                      Fast response times and expert troubleshooting to minimize downtime and ensure continuous
-                      operation.
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-white text-sm font-bold">3</span>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">Industry Standards Compliance</h4>
-                    <p className="text-gray-600">
-                      All solutions are designed and implemented in strict adherence to industry regulations and safety
-                      standards.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="relative">
-              <Image
-                src="/singleWindow.jpg"
-                alt="Single Window Engineering Solutions"
-                width={600}
-                height={500}
-                className="rounded-lg shadow-lg"
-              />
-            </div>
           </div>
         </div>
       </section>
